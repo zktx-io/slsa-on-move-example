@@ -15,4 +15,4 @@ jobs:
     uses: zktx-io/slsa-on-move/.github/workflows/generator_generic_slsa3.yml@main
     with:
       move-compiler: "sui"
-      move-directory: "sui/serializer"
+      move-directory: "sui/serializer_upgrade"
